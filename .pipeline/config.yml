@@ -9,7 +9,6 @@ service:
 stages:
   Build:
     mavenExecuteStaticCodeChecks: false
-    source: helloworldui5
     npmExecuteLint: false
   Acceptance:
     cloudFoundryDeploy: false
